@@ -5,4 +5,4 @@ def display_rainbow(colors=[])
   for x in colors do
     rainbow += "#{colors[x][0].upcase}: #{colors[x]}"    
   end
-endS
+end
