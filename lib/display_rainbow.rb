@@ -8,7 +8,7 @@ def display_rainbow(colors=[])
     if (x != colors.last)
       rainbow +=  ", "
     end
-      puts rainbow
+      print rainbow
   end
   
 
