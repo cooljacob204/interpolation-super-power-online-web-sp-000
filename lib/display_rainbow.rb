@@ -3,7 +3,8 @@
 def display_rainbow(colors=[])
   rainbow = ""
   for x in colors do
-    rainbow += "#{x[0].upcase}: #{x}" 
+    rainbow += "#{x[0].upcase}: #{x}"
+    if x != colors.last
   end
   
   puts rainbow
