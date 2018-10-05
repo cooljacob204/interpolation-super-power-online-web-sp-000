@@ -3,6 +3,6 @@
 def display_rainbow(colors=[])
   rainbow = ""
   for x in colors do
-    rainbow += "#{colors[x].upper()}"    
+    rainbow += "#{colors[x].upcase}"    
   end
 end
